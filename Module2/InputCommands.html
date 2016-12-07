@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Input Commands demo</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kamal Pandey">
+    <meta name="description" content="Demo for Input commands html forms">
+</head>
+<body>
+<h1>Input Commands Demo</h1>
+<form>
+    First Name: <input type="text" name="firstName"><br>
+    Email     : <input type="email" name="email"><br>
+    Password  : <input type="password" name="password"><br>
+    Occupation:
+    <select name="occupation">
+        <optgroup label="Tech">
+            <option name="developer" value="devel">Web Developer</option>
+            <option name="design" value="design">Web Designer</option>
+        </optgroup>
+        <optgroup label="NonTech">
+            <option name="consultant" value="Consultant">Consultant</option>
+            <option name="manager" value="Manager">Manager</option>
+        </optgroup>
+        <option name="other" value="Option">Other</option>
+    </select><br>
+    Gender: <input type="radio" name="gender" value="male">Male</input>
+     <input type="radio" name="gender" value="female">Female</input><br>
+    Bio: <textarea rows="5" name="bio"></textarea><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset Form">
+    <button type="submit"><em style="color: red">Submit</em></button>
+    <button onclick="alert('button clicked')">Click Me</button>
+</form>
+</body>
+</html>
